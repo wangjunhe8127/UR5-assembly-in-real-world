@@ -7,3 +7,6 @@ UR5 assembly control in ROS
 <br />paper:
 
 <br />picture：
+
+
+The video is in the branch 'main'
