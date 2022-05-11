@@ -1,0 +1,25 @@
+<launch>
+    <arg name="ur_ip" default="192.168.1.12" />
+    
+    <arg name="bianshi" default="false"/>
+
+    <arg name="force_ip" default="192.168.1.1" />
+
+    <include file="$(find ur_modern_driver)/launch/ur5_bringup.launch">
+        <arg name="limited" value="true" />
+        <arg name="robot_ip" value="$(arg ur_ip)" />
+    </include>
+
+    <include file="$(find ur5_moveit_config)/launch/ur5_moveit_planning_execution.launch">
+    </include>
+
+    <node name="talker" pkg="learning_communication" type="talker" args="192.168.1.1" respawn="true" output = "screen" launch-prefix="xterm -e" />
+
+    <node if="$(arg bianshi)" name="bianshi" pkg="learning_communication" type="bianshi.py" output = "screen" launch-prefix="xterm -e" />
+
+    <node name="listener" pkg="learning_communication" type="listener" respawn="true" output = "screen" launch-prefix="xterm -e" />
+
+
+</launch>
+
+

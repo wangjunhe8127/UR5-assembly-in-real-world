@@ -1,0 +1,2 @@
+learning_communication
+-DCATKIN_DEVEL_PREFIX=/home/xsm/control/devel -DCMAKE_INSTALL_PREFIX=/home/xsm/control/install -G Unix Makefiles

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xsm/control/src/learning_communication/src/netft.c
+arpa/inet.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netdb.h
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+netft.h
+/home/xsm/control/src/learning_communication/src/netft.h
+
+/home/xsm/control/src/learning_communication/src/netft.h
+stdio.h
+-
+
