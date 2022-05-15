@@ -8,5 +8,5 @@ UR5 assembly control in ROS
 https://ieeexplore.ieee.org/document/9588304  
 <br />picture：
 ![img](https://github.com/wangjunhe8127/UR5-assembly-in-real-world/blob/master/01.png)  
-![img](https://github.com/wangjunhe8127/UR5-assembly-in-real-world/blob/master/011.png)
+![img](https://github.com/wangjunhe8127/UR5-assembly-in-real-world/blob/master/011.png)  
 The video is in the branch 'main'
